@@ -20,13 +20,15 @@ public class SortedArrayToBst {
     public Node convert_Bst(int arr[] ,int low,int high)
     {
 
-        if (low>high)
-            return null;
+        if(low>high)
+            return  null;
 
-        int mid = low+(high-low)/2;
-        Node node = new Node(arr[mid]);
-        node.left=convert_Bst(arr,low,mid-1);
+        int mid= low +(high-low)/2;
+        Node node = new Node(   mid);
+        node.left= convert_Bst(arr,low,mid-1);
         node.right=convert_Bst(arr,mid+1,high);
+
+
         return node;
 
 
@@ -45,7 +47,6 @@ public class SortedArrayToBst {
 
 
         InOrder_(node.left);
-
         System.out.println(node.key);
         InOrder_(node.right);
     }
