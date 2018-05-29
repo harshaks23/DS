@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CoreDS/queueUsing2stacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoreDS/minHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,20 +57,26 @@
       <file leaf-file-name="maxBinaryHeap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1459">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="74" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queueUsingLinked.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java">
+      <file leaf-file-name="minHeap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CoreDS/minHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+            <state relative-caret-position="309">
+              <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
               <folding>
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queueUsing2stacks.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="queueUsing2stacks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsing2stacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="680">
               <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding>
                 <element signature="e#91#100#0" expanded="true" />
@@ -173,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/CoreDS/QueueUsing1Stack.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/queueUsing2stacks.java" />
         <option value="$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java" />
+        <option value="$PROJECT_DIR$/src/CoreDS/minHeap.java" />
       </list>
     </option>
   </component>
@@ -251,19 +258,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueUsing1Stack">
+  <component name="RunManager" selected="Application.minHeap">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.BST" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoreDS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreDS.HashMap" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -292,6 +289,16 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="minHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreDS.minHeap" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CoreDS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="queueUsingLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.queueUsingLinked" />
       <module name="DS" />
@@ -303,19 +310,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.HashMap" />
       <item itemvalue="Application.BST" />
       <item itemvalue="Application.SortedLinkedListFormulaToBST" />
       <item itemvalue="Application.queueUsingLinked" />
       <item itemvalue="Application.QueueUsing1Stack" />
+      <item itemvalue="Application.minHeap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.minHeap" />
         <item itemvalue="Application.QueueUsing1Stack" />
         <item itemvalue="Application.queueUsingLinked" />
         <item itemvalue="Application.SortedLinkedListFormulaToBST" />
         <item itemvalue="Application.BST" />
-        <item itemvalue="Application.HashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +344,7 @@
       <workItem from="1527385414386" duration="848000" />
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
-      <workItem from="1527514863015" duration="15297000" />
+      <workItem from="1527514863015" duration="20047000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -402,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527631853718</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Qusng2stack">
+      <created>1527633017287</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1527633017287</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95735000" />
+    <option name="totallyTimeSpent" value="100485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -422,11 +436,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27244094" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27244094" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -456,7 +470,8 @@
     <MESSAGE value="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively" />
     <MESSAGE value="QusngLL" />
     <MESSAGE value="Qusng1stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Qusng1stack" />
+    <MESSAGE value="Qusng2stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Qusng2stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -493,13 +508,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/StackUsingLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -849,16 +857,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1459">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsing2stacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="680">
           <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
           <folding>
             <element signature="e#91#100#0" expanded="true" />
@@ -866,6 +867,30 @@
             <element signature="e#156#157#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
             <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="74" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreDS/minHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
           </folding>
         </state>
       </provider>
