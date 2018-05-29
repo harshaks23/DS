@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoreDS/QueueUsing1Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,15 +20,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queueUsingArrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsingArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -76,14 +67,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queueUsingLinked.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="queueUsingLinked.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+            <state relative-caret-position="54">
+              <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
               <folding>
                 <element signature="e#113#114#0" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueueUsing1Stack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CoreDS/QueueUsing1Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="e#107#116#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormula.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormulaToBST.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java" />
+        <option value="$PROJECT_DIR$/src/CoreDS/QueueUsing1Stack.java" />
       </list>
     </option>
   </component>
@@ -238,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.queueUsingLinked">
+  <component name="RunManager" selected="Application.QueueUsing1Stack">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.BST" />
       <module name="DS" />
@@ -259,8 +265,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SortedLinkedListFormulaToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreDS.SortedLinkedListFormulaToBST" />
+    <configuration name="QueueUsing1Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreDS.QueueUsing1Stack" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -269,8 +275,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SortedLinkedListToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreDS.SortedLinkedListToBST" />
+    <configuration name="SortedLinkedListFormulaToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreDS.SortedLinkedListFormulaToBST" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -290,19 +296,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.SortedLinkedListToBST" />
       <item itemvalue="Application.HashMap" />
       <item itemvalue="Application.BST" />
       <item itemvalue="Application.SortedLinkedListFormulaToBST" />
       <item itemvalue="Application.queueUsingLinked" />
+      <item itemvalue="Application.QueueUsing1Stack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueUsing1Stack" />
         <item itemvalue="Application.queueUsingLinked" />
         <item itemvalue="Application.SortedLinkedListFormulaToBST" />
         <item itemvalue="Application.BST" />
         <item itemvalue="Application.HashMap" />
-        <item itemvalue="Application.SortedLinkedListToBST" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +330,7 @@
       <workItem from="1527385414386" duration="848000" />
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
-      <workItem from="1527514863015" duration="11658000" />
+      <workItem from="1527514863015" duration="13918000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -375,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527610052332</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="QusngLL">
+      <created>1527629552139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527629552139</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92096000" />
+    <option name="totallyTimeSpent" value="94356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -427,7 +440,8 @@
     <MESSAGE value="sorted array to bst" />
     <MESSAGE value="&#10;sorted linked list to bst ,converting linked list to arry and then sorting(binary search ,also can sort while adding) and then convert to bst" />
     <MESSAGE value="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively" />
+    <MESSAGE value="QusngLL" />
+    <option name="LAST_COMMIT_MESSAGE" value="QusngLL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,17 +478,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="139" column="5" selection-start-line="138" selection-end-line="139" selection-end-column="5" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
@@ -822,11 +825,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+        <state relative-caret-position="54">
+          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
           <folding>
             <element signature="e#113#114#0" expanded="true" />
             <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreDS/QueueUsing1Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#107#116#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
           </folding>
         </state>
       </provider>
