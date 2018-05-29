@@ -2,7 +2,7 @@ package CoreDS;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//sorted linked list to bst ,converting linked list to arry and then sorting(binary search ,also can sort while adding) and then convert to bst
 public class SortedLinkedListToBST {
 
   NodeL  L_root=null;
