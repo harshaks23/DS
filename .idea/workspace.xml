@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS/CoreDS/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS/CoreDS/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoreDS/SortedArrayToBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreDS/SortedArrayToBst.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Sorting/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StackUsingLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoreDS/StackUsingLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortedArrayToBst.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortedArrayToBst.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedArrayToBst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="204">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -68,11 +57,20 @@
       <file leaf-file-name="SortedLinkedListToBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedLinkedListToBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2754">
-              <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortedLinkedListFormulaToBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormulaToBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="1" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -150,10 +148,12 @@
         <option value="$PROJECT_DIR$/src/CoreDS/queueUsingStack.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/queueUsingArrays.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListToBST.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/HashMap.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/BST.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/SortedArrayToBst.java" />
+        <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListToBST.java" />
+        <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormula.java" />
+        <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormulaToBST.java" />
       </list>
     </option>
   </component>
@@ -232,19 +232,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BST">
+  <component name="RunManager" selected="Application.SortedLinkedListFormulaToBST">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.BST" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoreDS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreDS.BinarySearchTree" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -273,6 +263,16 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="SortedLinkedListFormulaToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreDS.SortedLinkedListFormulaToBST" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CoreDS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="SortedLinkedListToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.SortedLinkedListToBST" />
       <module name="DS" />
@@ -284,19 +284,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearchTree" />
       <item itemvalue="Application.SortedArrayToBst" />
       <item itemvalue="Application.SortedLinkedListToBST" />
       <item itemvalue="Application.HashMap" />
       <item itemvalue="Application.BST" />
+      <item itemvalue="Application.SortedLinkedListFormulaToBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedLinkedListFormulaToBST" />
         <item itemvalue="Application.BST" />
         <item itemvalue="Application.HashMap" />
         <item itemvalue="Application.SortedLinkedListToBST" />
         <item itemvalue="Application.SortedArrayToBst" />
-        <item itemvalue="Application.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +318,7 @@
       <workItem from="1527385414386" duration="848000" />
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
-      <workItem from="1527514863015" duration="4965000" />
+      <workItem from="1527514863015" duration="10016000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -334,11 +334,25 @@
       <option name="project" value="LOCAL" />
       <updated>1527534966858</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sorted array to bst">
+      <created>1527601252738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527601252738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&#10;sorted linked list to bst ,converting linked list to arry and then sorting(binary search ,also can sort while adding) and then convert to bst">
+      <created>1527601739976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527601739976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85403000" />
+    <option name="totallyTimeSpent" value="90454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -354,11 +368,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27244094" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27244094" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -383,7 +397,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes sec" />
     <MESSAGE value="bst coded" />
-    <option name="LAST_COMMIT_MESSAGE" value="bst coded" />
+    <MESSAGE value="sorted array to bst" />
+    <MESSAGE value="&#10;sorted linked list to bst ,converting linked list to arry and then sorting(binary search ,also can sort while adding) and then convert to bst" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;sorted linked list to bst ,converting linked list to arry and then sorting(binary search ,also can sort while adding) and then convert to bst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -420,13 +436,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/quicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4556">
@@ -737,16 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedLinkedListToBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2601">
@@ -778,8 +777,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedArrayToBst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="204">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedLinkedListToBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormulaToBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="1" selection-end-line="4" />
         </state>
       </provider>
     </entry>
