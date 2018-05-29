@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,11 +67,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortedLinkedListFormulaToBST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortedLinkedListFormulaToBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormulaToBST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" lean-forward="true" selection-start-line="1" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queueUsingLinked.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+              <folding>
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,15 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
               <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4556">
-              <caret line="297" selection-start-line="297" selection-end-line="297" />
             </state>
           </provider>
         </entry>
@@ -154,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListToBST.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormula.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormulaToBST.java" />
+        <option value="$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java" />
       </list>
     </option>
   </component>
@@ -232,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortedLinkedListFormulaToBST">
+  <component name="RunManager" selected="Application.queueUsingLinked">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.BST" />
       <module name="DS" />
@@ -245,16 +251,6 @@
     </configuration>
     <configuration name="HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.HashMap" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoreDS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SortedArrayToBst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreDS.SortedArrayToBst" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -283,20 +279,30 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="queueUsingLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreDS.queueUsingLinked" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CoreDS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
-      <item itemvalue="Application.SortedArrayToBst" />
       <item itemvalue="Application.SortedLinkedListToBST" />
       <item itemvalue="Application.HashMap" />
       <item itemvalue="Application.BST" />
       <item itemvalue="Application.SortedLinkedListFormulaToBST" />
+      <item itemvalue="Application.queueUsingLinked" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.queueUsingLinked" />
         <item itemvalue="Application.SortedLinkedListFormulaToBST" />
         <item itemvalue="Application.BST" />
         <item itemvalue="Application.HashMap" />
         <item itemvalue="Application.SortedLinkedListToBST" />
-        <item itemvalue="Application.SortedArrayToBst" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +324,7 @@
       <workItem from="1527385414386" duration="848000" />
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
-      <workItem from="1527514863015" duration="10016000" />
+      <workItem from="1527514863015" duration="11658000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -348,11 +354,32 @@
       <option name="project" value="LOCAL" />
       <updated>1527601739976</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively">
+      <created>1527610012059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527610012059</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively">
+      <created>1527610040520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527610040520</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively">
+      <created>1527610052332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527610052332</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90454000" />
+    <option name="totallyTimeSpent" value="92096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -368,11 +395,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27244094" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27244094" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,7 +426,8 @@
     <MESSAGE value="bst coded" />
     <MESSAGE value="sorted array to bst" />
     <MESSAGE value="&#10;sorted linked list to bst ,converting linked list to arry and then sorting(binary search ,also can sort while adding) and then convert to bst" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;sorted linked list to bst ,converting linked list to arry and then sorting(binary search ,also can sort while adding) and then convert to bst" />
+    <MESSAGE value="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -436,13 +464,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4556">
-          <caret line="297" selection-start-line="297" selection-end-line="297" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2312">
@@ -796,6 +817,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="1" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
