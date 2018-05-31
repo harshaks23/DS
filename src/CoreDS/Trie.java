@@ -43,7 +43,42 @@ TrieNode temp=root;
         return (temp!=null && temp.isEndOfWord);
 
     }
+public void delete(String word)
+{
+    delete(root, word,0);
+}
+public  boolean has_Child(TrieNode node)
+{
+    for (TrieNode each:
+         node.childs) {
+        if (each!=null)
+        {
+            return  false;
+        }
+    }
+}
 
+public boolean delete(TrieNode node, String word,int index)
+{
+    if (index==word.length())
+    {
+        if (node.isEndOfWord==false)
+            return false;
+        node.isEndOfWord=false;
+
+        return has_Child(node);
+    }
+TrieNode tem= node.childs[word.charAt(index)-'a'];
+if (tem==null)
+    return false;
+boolean should_delete=delete(tem,word,index+1);
+if (should_delete)
+{
+    tem.childs[word.charAt(index)-'a']=null;
+    return 
+}
+
+}
     public static void main(String[] args) {
 
 
