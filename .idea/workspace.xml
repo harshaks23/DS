@@ -85,11 +85,13 @@
       <file leaf-file-name="Trie.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CoreDS/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="309">
+              <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
               <folding>
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -263,17 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.minHeap">
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreDS.BST" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoreDS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Trie">
     <configuration name="QueueUsing1Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.QueueUsing1Stack" />
       <module name="DS" />
@@ -286,6 +278,16 @@
     </configuration>
     <configuration name="SortedLinkedListFormulaToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.SortedLinkedListFormulaToBST" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CoreDS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreDS.Trie" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -315,19 +317,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.BST" />
       <item itemvalue="Application.SortedLinkedListFormulaToBST" />
       <item itemvalue="Application.queueUsingLinked" />
       <item itemvalue="Application.QueueUsing1Stack" />
       <item itemvalue="Application.minHeap" />
+      <item itemvalue="Application.Trie" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Trie" />
         <item itemvalue="Application.minHeap" />
         <item itemvalue="Application.QueueUsing1Stack" />
         <item itemvalue="Application.queueUsingLinked" />
         <item itemvalue="Application.SortedLinkedListFormulaToBST" />
-        <item itemvalue="Application.BST" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +351,7 @@
       <workItem from="1527385414386" duration="848000" />
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
-      <workItem from="1527514863015" duration="28530000" />
+      <workItem from="1527514863015" duration="30337000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -442,11 +444,25 @@
       <option name="project" value="LOCAL" />
       <updated>1527751996993</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="delete incomplete trie,finish">
+      <created>1527825197214</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1527825197214</updated>
+    </task>
+    <task id="LOCAL-00015" summary="delete incomplete trie,finish">
+      <created>1527826553218</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1527826553218</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108968000" />
+    <option name="totallyTimeSpent" value="110775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -462,11 +478,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27244094" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27244094" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -500,7 +516,8 @@
     <MESSAGE value="min HEAp DS" />
     <MESSAGE value="trie seaarch and issert" />
     <MESSAGE value="delete incomplete trie" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete incomplete trie" />
+    <MESSAGE value="delete incomplete trie,finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete incomplete trie,finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -529,11 +546,17 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CoreDS/Trie.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -919,11 +942,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="309">
+          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
           <folding>
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
           </folding>
         </state>
       </provider>

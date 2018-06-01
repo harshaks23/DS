@@ -51,7 +51,7 @@ TrieNode temp=root;
     }
 public void delete(String word)
 {
-    delete(root, word,0);
+    System.out.println( delete(root, word,0));
 }
 public  boolean has_Child(TrieNode node)
 {
@@ -88,11 +88,19 @@ if (should_delete)
 }
 return false;
 }
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+
 Trie trie = new Trie();
 trie.insert("ksh");
 trie.insert("ksab");
-        System.out.println(trie.search("ks"));
+System.out.println(trie.search("ksh"));
+System.out.println(trie.search("ks"));
+trie.delete("ks");
+trie.delete("ksh");
+
+System.out.println(trie.search("ksh"));
+
 
     }
 
