@@ -15,14 +15,20 @@ public class Trie  {
         }
     }
 TrieNode root;
+
+      Trie()
+      {
+          root= new TrieNode();
+      }
     public void insert(String key)
     {
        TrieNode temp=root;
        for (int level=0;level<key.length();level++)
        {
            int i=key.charAt(level)-'a';
-           if (temp==null)
-               temp= new TrieNode();
+           TrieNode now= temp.childs[i];
+           if (now==null)
+                temp.childs[i]=new TrieNode();
            temp=temp.childs[i];
        }
 
@@ -83,7 +89,10 @@ if (should_delete)
 return false;
 }
     public static void main(String[] args) {
-
+Trie trie = new Trie();
+trie.insert("ksh");
+trie.insert("ksab");
+        System.out.println(trie.search("ks"));
 
     }
 
