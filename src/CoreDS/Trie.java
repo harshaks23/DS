@@ -53,9 +53,10 @@ public  boolean has_Child(TrieNode node)
          node.childs) {
         if (each!=null)
         {
-            return  false;
+            return  true;
         }
     }
+    return false;
 }
 
 public boolean delete(TrieNode node, String word,int index)
@@ -66,7 +67,7 @@ public boolean delete(TrieNode node, String word,int index)
             return false;
         node.isEndOfWord=false;
 
-        return has_Child(node);
+        return !has_Child(node);
     }
 TrieNode tem= node.childs[word.charAt(index)-'a'];
 if (tem==null)
@@ -75,9 +76,11 @@ boolean should_delete=delete(tem,word,index+1);
 if (should_delete)
 {
     tem.childs[word.charAt(index)-'a']=null;
-    return 
-}
 
+    return !has_Child(node);
+
+}
+return false;
 }
     public static void main(String[] args) {
 
