@@ -6,7 +6,7 @@ public int max(int[] arr)
     int max=-1;
     for (int i:arr)
     {
-        if (arr[i]>max)
+        if (i>max)
             max=i;
     }
     return max;
@@ -46,7 +46,7 @@ return arr;
 
     public static void main(String[] args) {
 
-        int[] arr= new int[]{8,2,4,5,1,2,7,6,3,2};
+        int[] arr= new int[]{1,2,3,4,5,6,7,8};
         BucketSort bucketSort = new BucketSort();
         arr=bucketSort.sort(arr);
         for (int i:arr
