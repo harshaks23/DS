@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Linked_list_deepCopy_hash_Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ll_deep_copy_withouthashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ll_deep_copy_withouthashmap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,15 +22,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortedLinkedListFormulaToBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedLinkedListFormulaToBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -103,11 +93,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Linked_list_deepCopy_hash_Map.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Linked_list_deepCopy_hash_Map.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/Linked_list_deepCopy_hash_Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ll_deep_copy_withouthashmap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/ll_deep_copy_withouthashmap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -170,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/com/Sorting/BucketSort.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/Linked_list_deepCopy_hash_Map.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/ll_deep_copy_withouthashmap.java" />
       </list>
     </option>
   </component>
@@ -341,7 +344,7 @@
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
       <workItem from="1527514863015" duration="31724000" />
-      <workItem from="1527875550859" duration="12467000" />
+      <workItem from="1527875550859" duration="13873000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -490,11 +493,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528007317344</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="linked_list deepcopy hash map">
+      <created>1528012199759</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1528012199759</updated>
+    </task>
+    <task id="LOCAL-00023" summary="linked_list deepcopy without  hash map">
+      <created>1528012306216</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1528012306216</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124629000" />
+    <option name="totallyTimeSpent" value="126035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -553,7 +570,9 @@
     <MESSAGE value="dijk" />
     <MESSAGE value="bucketsort" />
     <MESSAGE value="linked_list" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked_list" />
+    <MESSAGE value="linked_list deepcopy hash map" />
+    <MESSAGE value="linked_list deepcopy without  hash map" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked_list deepcopy without  hash map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -596,13 +615,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/quicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5049">
@@ -960,8 +972,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/Linked_list_deepCopy_hash_Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/ll_deep_copy_withouthashmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
         </state>
       </provider>
     </entry>
