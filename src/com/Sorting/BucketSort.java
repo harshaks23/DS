@@ -46,7 +46,7 @@ return arr;
 
     public static void main(String[] args) {
 
-        int[] arr= new int[]{1,2,3,4,5,6,7,8};
+        int[] arr= new int[]{8,7,6,5};
         BucketSort bucketSort = new BucketSort();
         arr=bucketSort.sort(arr);
         for (int i:arr
