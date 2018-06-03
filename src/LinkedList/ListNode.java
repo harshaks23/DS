@@ -45,6 +45,6 @@ class Linked_list_Rotate {
         return output;
     }
 
-    
+
 
 }
