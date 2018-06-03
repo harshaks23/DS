@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main_Algorithms/Shortest_path_V2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Sorting/BucketSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shortest_path_V2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Shortest_path_V2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main_Algorithms/Shortest_path_V2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
@@ -90,6 +90,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BucketSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Sorting/BucketSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -102,19 +111,6 @@
               <folding>
                 <element signature="e#460#461#0" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueueUsing1Stack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoreDS/QueueUsing1Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="1" selection-start-line="6" selection-end-line="29" selection-end-column="1" />
-              <folding>
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/CoreDS/minHeap.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/Trie.java" />
         <option value="$PROJECT_DIR$/src/Main_Algorithms/Shortest_path_V2.java" />
+        <option value="$PROJECT_DIR$/src/com/Sorting/BucketSort.java" />
       </list>
     </option>
   </component>
@@ -253,7 +250,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Shortest_path_V2">
+  <component name="RunManager" selected="Application.BucketSort">
+    <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Sorting.BucketSort" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="QueueUsing1Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreDS.QueueUsing1Stack" />
       <module name="DS" />
@@ -294,30 +301,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="queueUsingLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreDS.queueUsingLinked" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoreDS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <list>
-      <item itemvalue="Application.queueUsingLinked" />
       <item itemvalue="Application.QueueUsing1Stack" />
       <item itemvalue="Application.minHeap" />
       <item itemvalue="Application.Trie" />
       <item itemvalue="Application.Shortest_path_V2" />
+      <item itemvalue="Application.BucketSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BucketSort" />
         <item itemvalue="Application.Shortest_path_V2" />
         <item itemvalue="Application.Trie" />
         <item itemvalue="Application.minHeap" />
         <item itemvalue="Application.QueueUsing1Stack" />
-        <item itemvalue="Application.queueUsingLinked" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +337,7 @@
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
       <workItem from="1527514863015" duration="31724000" />
-      <workItem from="1527875550859" duration="3868000" />
+      <workItem from="1527875550859" duration="8105000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -454,11 +451,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527827123879</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="dijk">
+      <created>1527881662457</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1527881662457</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116030000" />
+    <option name="totallyTimeSpent" value="120267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -478,7 +482,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4743025" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15153733" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -514,7 +518,8 @@
     <MESSAGE value="delete incomplete trie" />
     <MESSAGE value="delete incomplete trie,finish" />
     <MESSAGE value="delete complete trie,finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete complete trie,finish" />
+    <MESSAGE value="dijk" />
+    <option name="LAST_COMMIT_MESSAGE" value="dijk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,13 +562,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/SortedArrayToBst.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -926,6 +924,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Sorting/BucketSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
