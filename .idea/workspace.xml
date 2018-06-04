@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/mergetwwosorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/delete_allcommonfromsortedlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/reverse_recursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/reverse_recursive.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,31 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Trie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoreDS/Trie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
-              <folding>
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shortest_path_V2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main_Algorithms/Shortest_path_V2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BucketSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Sorting/BucketSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +81,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mergetwwosorted.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mergetwwosorted.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/mergetwwosorted.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_common_sortedlist.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/delete_common_sortedlist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_allcommonfromsortedlist.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/delete_allcommonfromsortedlist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -170,6 +162,8 @@
         <option value="$PROJECT_DIR$/src/LinkedList/Reverse_iteraively.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/reverse_recursive.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/mergetwwosorted.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/delete_common_sortedlist.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/delete_allcommonfromsortedlist.java" />
       </list>
     </option>
   </component>
@@ -347,7 +341,7 @@
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
       <workItem from="1527514863015" duration="31724000" />
-      <workItem from="1527875550859" duration="16681000" />
+      <workItem from="1527875550859" duration="18012000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -531,11 +525,32 @@
       <option name="project" value="LOCAL" />
       <updated>1528069009565</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="reverse recursive">
+      <created>1528072495211</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1528072495211</updated>
+    </task>
+    <task id="LOCAL-00028" summary="merge two sorted">
+      <created>1528072509799</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1528072509799</updated>
+    </task>
+    <task id="LOCAL-00029" summary="remove duplicates from sorted">
+      <created>1528073634540</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1528073634540</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128843000" />
+    <option name="totallyTimeSpent" value="130174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -599,7 +614,9 @@
     <MESSAGE value="delete node" />
     <MESSAGE value="iterative reverse" />
     <MESSAGE value="reverse recursive" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse recursive" />
+    <MESSAGE value="merge two sorted" />
+    <MESSAGE value="remove duplicates from sorted" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove duplicates from sorted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,20 +659,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/StackUsingLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5049">
@@ -1009,8 +1012,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/mergetwwosorted.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/delete_common_sortedlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/delete_allcommonfromsortedlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
