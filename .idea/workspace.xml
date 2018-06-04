@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/delete_allcommonfromsortedlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BucketSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Sorting/BucketSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reverse_iteraively.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reverse_iteraively.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/Reverse_iteraively.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -99,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete_allcommonfromsortedlist.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delete_allcommonfromsortedlist.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/delete_allcommonfromsortedlist.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <caret line="43" column="5" lean-forward="true" selection-start-line="38" selection-end-line="43" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tortize_hasCycle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/tortize_hasCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -159,11 +158,12 @@
         <option value="$PROJECT_DIR$/src/LinkedList/Linked_list_deepCopy_hash_Map.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ll_deep_copy_withouthashmap.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/delete_node.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/Reverse_iteraively.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/reverse_recursive.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/mergetwwosorted.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/delete_common_sortedlist.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/delete_allcommonfromsortedlist.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/tortize_hasCycle.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Reverse_iteraively.java" />
       </list>
     </option>
   </component>
@@ -341,7 +341,7 @@
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
       <workItem from="1527514863015" duration="31724000" />
-      <workItem from="1527875550859" duration="18012000" />
+      <workItem from="1527875550859" duration="19439000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -546,11 +546,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528073634540</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="remove all duplicates from sorted only unique remains">
+      <created>1528075714953</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1528075714953</updated>
+    </task>
+    <task id="LOCAL-00031" summary="tortize has cycle">
+      <created>1528076272073</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1528076272073</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130174000" />
+    <option name="totallyTimeSpent" value="131601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -616,7 +630,9 @@
     <MESSAGE value="reverse recursive" />
     <MESSAGE value="merge two sorted" />
     <MESSAGE value="remove duplicates from sorted" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove duplicates from sorted" />
+    <MESSAGE value="remove all duplicates from sorted only unique remains" />
+    <MESSAGE value="tortize has cycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="tortize has cycle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,13 +675,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5049">
-          <caret line="297" selection-start-line="297" selection-end-line="297" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsingArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -996,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/Reverse_iteraively.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/reverse_recursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1027,7 +1029,21 @@
     <entry file="file://$PROJECT_DIR$/src/LinkedList/delete_allcommonfromsortedlist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <caret line="43" column="5" lean-forward="true" selection-start-line="38" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/tortize_hasCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/Reverse_iteraively.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
