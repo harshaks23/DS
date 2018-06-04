@@ -19,10 +19,12 @@ public class maxBinaryHeap {
     {
         return (p*2)+2;
     }
-
-    public int getParent(int p)
+    public int getParent(int pos)
     {
-return p/2 ;
+        if (pos%2==1)
+            return pos/2;
+        else
+            return (pos-1)/2;
     }
     public void swap(int p1,int p2)
     {
@@ -51,7 +53,7 @@ public int remove()
 }
 public boolean isLeaf(int pos)
 {
-if (pos>size/2)
+if (pos>=size/2)
     return  true;
 else return false;
 }

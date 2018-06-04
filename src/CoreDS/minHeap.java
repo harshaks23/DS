@@ -10,8 +10,10 @@ minHeap(int n)
 }
 public int getParent(int pos)
 {
-    return pos/2;
-
+    if (pos%2==1)
+        return pos/2;
+    else
+        return (pos-1)/2;
 }
 public int getLeft(int pos)
 {
@@ -24,14 +26,25 @@ public int getLeft(int pos)
         return (pos*2)+ 2;
     }
 
-public boolean isLeaf(int pos)
-{
-    return pos>(size);
-}
+
+
+
+    public boolean isLeaf(int pos)
+    {
+        if (pos>=size/2)
+            return  true;
+        else return false;
+
+
+    }
+
+
+
 public  void insert(int no)
 {
     minHeap[size++]=no;
     int temp=size-1;
+
     while (minHeap[temp]<minHeap[getParent(temp)])
     {
         int t= minHeap[temp];
