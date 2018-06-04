@@ -1,15 +1,15 @@
 package LinkedList;
 
 public class reverse_recursive {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
+        public class ListNode {
+            int val;
+            ListNode next;
+            ListNode(int x) { val = x; }
+        }
 
 
     public ListNode reverseList(ListNode head) {
- 
+
         if(head==null || head.next==null) return head;
 
 
@@ -17,13 +17,6 @@ public class reverse_recursive {
         head.next.next=head;
         head.next=null;
         return rec;
-
-
-
-
-
-
-
 
     }
 }
