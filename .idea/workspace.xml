@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CoreDS/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoreDS/MST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoreDS/PrimsAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoreDS/minHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreDS/minHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DS/com/Sorting/maxBinaryHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS/com/Sorting/maxBinaryHeap.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,15 +35,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoreDS/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            <state relative-caret-position="1836">
+              <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
               <folding>
                 <element signature="e#524#525#0" expanded="true" />
                 <element signature="e#549#550#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CoreDS/MST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="104" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="109" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimsAlgorithm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CoreDS/PrimsAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -66,24 +84,6 @@
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mergetwwosorted.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/mergetwwosorted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_common_sortedlist.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/delete_common_sortedlist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -178,6 +178,8 @@
         <option value="$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/minHeap.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/CoreDS/MST.java" />
+        <option value="$PROJECT_DIR$/src/CoreDS/PrimsAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -268,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.minHeap">
+  <component name="RunManager" selected="Application.MST">
     <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Sorting.BucketSort" />
       <module name="DS" />
@@ -279,22 +281,22 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="MST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreDS.MST" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CoreDS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Shortest_path_V2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main_Algorithms.Shortest_path_V2" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Main_Algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreDS.Trie" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoreDS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,18 +323,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.minHeap" />
-      <item itemvalue="Application.Trie" />
       <item itemvalue="Application.Shortest_path_V2" />
       <item itemvalue="Application.BucketSort" />
       <item itemvalue="Application.maxBinaryHeap" />
+      <item itemvalue="Application.MST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MST" />
         <item itemvalue="Application.minHeap" />
         <item itemvalue="Application.maxBinaryHeap" />
         <item itemvalue="Application.BucketSort" />
         <item itemvalue="Application.Shortest_path_V2" />
-        <item itemvalue="Application.Trie" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +357,7 @@
       <workItem from="1527386808897" duration="1124000" />
       <workItem from="1527388804963" duration="768000" />
       <workItem from="1527514863015" duration="31724000" />
-      <workItem from="1527875550859" duration="26083000" />
+      <workItem from="1527875550859" duration="29080000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -581,11 +583,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528077249517</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="priority queue">
+      <created>1528155906082</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1528155906082</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138245000" />
+    <option name="totallyTimeSpent" value="141242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -628,7 +637,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bst coded" />
     <MESSAGE value="sorted array to bst" />
     <MESSAGE value="&#10;sorted linked list to bst ,converting linked list to arry and then sorting(binary search ,also can sort while adding) and then convert to bst" />
     <MESSAGE value="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively" />
@@ -653,7 +661,8 @@
     <MESSAGE value="remove all duplicates from sorted only unique remains" />
     <MESSAGE value="tortize has cycle" />
     <MESSAGE value="remove linked list element" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove linked list element" />
+    <MESSAGE value="priority queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="priority queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -696,20 +705,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" column="33" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Sorting/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1065,12 +1060,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        <state relative-caret-position="1836">
+          <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
           <folding>
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#549#550#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreDS/MST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="104" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="109" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreDS/PrimsAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
