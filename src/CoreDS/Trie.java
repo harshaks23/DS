@@ -81,7 +81,7 @@ if (tem==null)
 boolean should_delete=delete(tem,word,index+1);
 if (should_delete)
 {
-    tem.childs[word.charAt(index)-'a']=null;
+    node.childs[word.charAt(index)-'a']=null;
 
     return !has_Child(node);
 
@@ -94,12 +94,18 @@ return false;
 Trie trie = new Trie();
 trie.insert("ksh");
 trie.insert("ksab");
+        trie.insert("har");
 System.out.println(trie.search("ksh"));
 System.out.println(trie.search("ks"));
+
+        System.out.println(trie.search("har"));
 trie.delete("ks");
 trie.delete("ksh");
+        trie.delete("har");
 
 System.out.println(trie.search("ksh"));
+
+        System.out.println(trie.search("har"));
 
 
     }
