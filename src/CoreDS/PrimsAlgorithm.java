@@ -52,7 +52,7 @@ public void print_mst(int[] keys,int[] parent)
 
         for (int v=0;v<V;v++)
         {
-            if (graph[u][v]!=0 && check[v]==false && graph[u][v]<keys[v])
+            if (graph[u][v]!=0 && check[v]==false  && graph[u][v]<keys[v])
             {
                 parent[v]=u;
                 keys[v]=graph[u][v];
