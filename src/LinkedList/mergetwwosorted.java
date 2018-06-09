@@ -1,5 +1,5 @@
 package LinkedList;
-
+//# the only actch here is it has to have snother reference you cant do it im the same list
 public class mergetwwosorted {
     public class ListNode {
         int val;
