@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ReorderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/revese_m_n.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="isPalindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/isPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="addTwoNo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/addTwoNo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,8 +26,8 @@
       <file leaf-file-name="addtwono2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/addtwono2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="e#146#155#0" expanded="true" />
                 <element signature="e#196#205#0" expanded="true" />
@@ -46,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReorderList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReorderList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/ReorderList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="448">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="60" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="revese_m_n.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/revese_m_n.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -132,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/com/company/maxBinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/com/company/BinarySort.java" />
         <option value="$PROJECT_DIR$/src/com/company/InsertionSort.java" />
@@ -183,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/LinkedList/linkedlistComponents.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/addtwono2.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ReorderList.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/revese_m_n.java" />
       </list>
     </option>
   </component>
@@ -356,7 +355,7 @@
       <workItem from="1527514863015" duration="31724000" />
       <workItem from="1527875550859" duration="30347000" />
       <workItem from="1528412136892" duration="16414000" />
-      <workItem from="1528586645584" duration="2356000" />
+      <workItem from="1528586645584" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="changes sec">
       <created>1527388843808</created>
@@ -687,11 +686,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528590351600</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="reorder list">
+      <created>1528592250540</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1528592250540</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161279000" />
+    <option name="totallyTimeSpent" value="162604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -734,7 +740,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linked_list" />
     <MESSAGE value="linked_list deepcopy hash map" />
     <MESSAGE value="linked_list deepcopy without  hash map" />
     <MESSAGE value="delete node" />
@@ -759,7 +764,8 @@
     <MESSAGE value="plusone" />
     <MESSAGE value="linkedlist components" />
     <MESSAGE value="add two no wih o(1) and n space" />
-    <option name="LAST_COMMIT_MESSAGE" value="add two no wih o(1) and n space" />
+    <MESSAGE value="reorder list" />
+    <option name="LAST_COMMIT_MESSAGE" value="reorder list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,9 +802,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/InsertionSort">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1145,8 +1148,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/addtwono2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="e#146#155#0" expanded="true" />
             <element signature="e#196#205#0" expanded="true" />
@@ -1156,8 +1159,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/ReorderList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="448">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/revese_m_n.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
