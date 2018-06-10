@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/revese_m_n.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/removenodeFromLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,29 +46,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="revese_m_n.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="revese_m_n.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/revese_m_n.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="8" column="5" selection-start-line="4" selection-start-column="3" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mergetwwosorted.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/mergetwwosorted.java">
+      <file leaf-file-name="SwapNodes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/SwapNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+            <state relative-caret-position="448">
+              <caret line="59" column="5" selection-start-line="53" selection-end-line="59" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ll_deep_copy_withouthashmap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/ll_deep_copy_withouthashmap.java">
+      <file leaf-file-name="removenodeFromLast.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/removenodeFromLast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="799">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -131,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/maxBinaryHeap.java" />
-        <option value="$PROJECT_DIR$/src/com/company/BinarySort.java" />
         <option value="$PROJECT_DIR$/src/com/company/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/com/company/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/company/quicksort.java" />
@@ -182,6 +181,8 @@
         <option value="$PROJECT_DIR$/src/LinkedList/addtwono2.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ReorderList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/revese_m_n.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/SwapNodes.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/removenodeFromLast.java" />
       </list>
     </option>
   </component>
@@ -355,14 +356,7 @@
       <workItem from="1527514863015" duration="31724000" />
       <workItem from="1527875550859" duration="30347000" />
       <workItem from="1528412136892" duration="16414000" />
-      <workItem from="1528586645584" duration="3681000" />
-    </task>
-    <task id="LOCAL-00001" summary="changes sec">
-      <created>1527388843808</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1527388843808</updated>
+      <workItem from="1528586645584" duration="5622000" />
     </task>
     <task id="LOCAL-00002" summary="bst coded">
       <created>1527534966858</created>
@@ -693,11 +687,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528592250540</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="reverse m to n">
+      <created>1528642476815</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1528642476815</updated>
+    </task>
+    <task id="LOCAL-00050" summary="swap nodes">
+      <created>1528658258029</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1528658258030</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162604000" />
+    <option name="totallyTimeSpent" value="164545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -740,8 +748,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linked_list deepcopy hash map" />
-    <MESSAGE value="linked_list deepcopy without  hash map" />
     <MESSAGE value="delete node" />
     <MESSAGE value="iterative reverse" />
     <MESSAGE value="reverse recursive" />
@@ -765,7 +771,9 @@
     <MESSAGE value="linkedlist components" />
     <MESSAGE value="add two no wih o(1) and n space" />
     <MESSAGE value="reorder list" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorder list" />
+    <MESSAGE value="reverse m to n" />
+    <MESSAGE value="swap nodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="swap nodes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,20 +810,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/BinaryHeap.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Sorting/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1167,7 +1161,21 @@
     <entry file="file://$PROJECT_DIR$/src/LinkedList/revese_m_n.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="8" column="5" selection-start-line="4" selection-start-column="3" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/SwapNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="59" column="5" selection-start-line="53" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/removenodeFromLast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
