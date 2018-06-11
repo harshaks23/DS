@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/DepthOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/IdenticalTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,20 +73,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DepthOfTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DepthOfTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/DepthOfTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+            <state relative-caret-position="448">
+              <caret line="88" column="6" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="88" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oddEven.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/oddEven.java">
+      <file leaf-file-name="IdenticalTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/IdenticalTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/company/quicksort.java" />
         <option value="$PROJECT_DIR$/src/com/Sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/StackUsingArrays.java" />
@@ -182,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/LinkedList/SwapNodes.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/removenodeFromLast.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/DepthOfTree.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/IdenticalTree.java" />
       </list>
     </option>
   </component>
@@ -219,6 +226,12 @@
               <item name="DS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DS" type="b2602c69:ProjectViewProjectNode" />
@@ -355,21 +368,7 @@
       <workItem from="1527514863015" duration="31724000" />
       <workItem from="1527875550859" duration="30347000" />
       <workItem from="1528412136892" duration="16414000" />
-      <workItem from="1528586645584" duration="6281000" />
-    </task>
-    <task id="LOCAL-00003" summary="sorted array to bst">
-      <created>1527601252738</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1527601252738</updated>
-    </task>
-    <task id="LOCAL-00004" summary="&#10;sorted linked list to bst ,converting linked list to arry and then sorting(binary search ,also can sort while adding) and then convert to bst">
-      <created>1527601739976</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1527601739976</updated>
+      <workItem from="1528586645584" duration="8536000" />
     </task>
     <task id="LOCAL-00005" summary="&#10;//here we do bottoms up approach and try to find the leaf nodes and then to the top&#10;//just find the length of the linked list and then use the no of nodes in left and right n/2 and n-n/2-1 to find left nodes and right nodes respectively">
       <created>1527610012059</created>
@@ -700,11 +699,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528659994140</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="depth of the tree">
+      <created>1528661076487</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1528661076487</updated>
+    </task>
+    <task id="LOCAL-00053" summary="depth of the tree using dfs and bfs">
+      <created>1528663306078</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1528663306079</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165204000" />
+    <option name="totallyTimeSpent" value="167459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -747,8 +760,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="iterative reverse" />
-    <MESSAGE value="reverse recursive" />
     <MESSAGE value="merge two sorted" />
     <MESSAGE value="remove duplicates from sorted" />
     <MESSAGE value="remove all duplicates from sorted only unique remains" />
@@ -772,7 +783,9 @@
     <MESSAGE value="reverse m to n" />
     <MESSAGE value="swap nodes" />
     <MESSAGE value="remove node from last" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove node from last" />
+    <MESSAGE value="depth of the tree" />
+    <MESSAGE value="depth of the tree using dfs and bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="depth of the tree using dfs and bfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -809,13 +822,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Sorting/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-521">
@@ -1179,8 +1185,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/DepthOfTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        <state relative-caret-position="448">
+          <caret line="88" column="6" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="88" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/IdenticalTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
