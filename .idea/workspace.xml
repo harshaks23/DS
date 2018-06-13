@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/sortedListToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/sortedarraytoBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/path_sum_iterative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,36 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReorderList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/ReorderList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="5" selection-start-line="56" selection-start-column="3" selection-end-line="60" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minDepthLevelOrderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/minDepthLevelOrderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="removenodeFromLast.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/removenodeFromLast.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DepthOfTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/DepthOfTree.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,11 +70,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sortedListToBST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sortedListToBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/sortedListToBST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <caret line="55" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/PathSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="path_sum_iterative.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/path_sum_iterative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addTwoNo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/addTwoNo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="4" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -112,8 +109,8 @@
       <file leaf-file-name="minDepth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/minDepth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="9" selection-start-column="10" selection-end-line="20" />
+            <state relative-caret-position="448">
+              <caret line="31" column="5" selection-start-line="24" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -138,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CoreDS/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/CoreDS/HashMap.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/BST.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/SortedArrayToBst.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/SortedLinkedListToBST.java" />
@@ -170,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/CoreDS/Trie_again.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/Trie.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/isPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/addTwoNo.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/mergetwwosorted.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListCycle2.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/oddEven.java" />
@@ -188,7 +182,10 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/symmetric.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/numofIsland.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/sortedarraytoBST.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/addTwoNo.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/sortedListToBST.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/PathSum.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/path_sum_iterative.java" />
       </list>
     </option>
   </component>
@@ -369,14 +366,7 @@
       <workItem from="1527875550859" duration="30347000" />
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
-      <workItem from="1528885976109" duration="2062000" />
-    </task>
-    <task id="LOCAL-00009" summary="Qusng1stack">
-      <created>1527631853718</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1527631853718</updated>
+      <workItem from="1528885976109" duration="3419000" />
     </task>
     <task id="LOCAL-00010" summary="Qusng2stack">
       <created>1527633017287</created>
@@ -714,11 +704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528888488155</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="sorted list to bst">
+      <created>1528892400824</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1528892400824</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175014000" />
+    <option name="totallyTimeSpent" value="176371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -761,7 +758,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove linked list element" />
     <MESSAGE value="priority queue" />
     <MESSAGE value="prims" />
     <MESSAGE value="prims finsih" />
@@ -786,7 +782,8 @@
     <MESSAGE value="iterative and recursive using queue" />
     <MESSAGE value="min depth" />
     <MESSAGE value="num of island" />
-    <option name="LAST_COMMIT_MESSAGE" value="num of island" />
+    <MESSAGE value="sorted list to bst" />
+    <option name="LAST_COMMIT_MESSAGE" value="sorted list to bst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -823,20 +820,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/queueUsingLinked.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/StackUsingArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="85" column="36" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/StackUsingLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1086,13 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/addTwoNo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="4" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/addtwono2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1125,13 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="5" selection-start-line="56" selection-start-column="3" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/minDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="9" selection-start-column="10" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -1189,10 +1158,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/addTwoNo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="4" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/minDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="31" column="5" selection-start-line="24" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/sortedListToBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <caret line="55" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/PathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/path_sum_iterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
