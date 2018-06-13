@@ -12,10 +12,10 @@ public class numofIsland {
                 for(int j=0;j<grid[i].length;j++)
                 {
 
-                    if(grid[i][j]=='1')
-                        helper(grid,i,j);
-                    count++;
-                }
+                    if(grid[i][j]=='1') {
+                        helper(grid, i, j);
+                        count++;
+                    }                }
             }
 
             return count;
