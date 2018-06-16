@@ -13,7 +13,7 @@ public class InsertionSort  {
                 {
                     int temp= arr[j];
                     arr[j]=arr[i-1];
-                    arr[i-1]=temp;
+                      arr[i-1]=temp;
                 }
             }
         }
