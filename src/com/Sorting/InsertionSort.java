@@ -12,8 +12,8 @@ public class InsertionSort  {
                 if(arr[j]<arr[j-1])
                 {
                     int temp= arr[j];
-                    arr[j]=arr[i-1];
-                      arr[i-1]=temp;
+                    arr[j]=arr[j-1];
+                      arr[j-1]=temp;
                 }
             }
         }
