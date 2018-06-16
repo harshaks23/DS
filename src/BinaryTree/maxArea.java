@@ -30,6 +30,7 @@ public class maxArea {
                 return 0;
             }
 
+
             grid[i][j]=2;
             return  1+helper(grid,i-1,j)+helper(grid,i+1,j)+    helper(grid,i,j-1)+  helper(grid,i,j+1);
         }
