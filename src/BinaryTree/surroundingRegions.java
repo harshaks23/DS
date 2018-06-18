@@ -94,13 +94,13 @@ public class surroundingRegions {
                 return;
             }
 
-            dfs(board,i-1,j);
+                dfs(board,i-1,j);
 
-            dfs(board,i+1,j);
+                dfs(board,i+1,j);
 
-            dfs(board,i,j-1);
+                dfs(board,i,j-1);
 
-            dfs(board,i,j+1);
+                dfs(board,i,j+1);
 
 
 
