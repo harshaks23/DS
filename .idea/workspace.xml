@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="perimeter of the island">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/surroundingRegions.java" afterDir="false" />
+    <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/numOfDistnictIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,23 +45,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="surroundingRegions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="surroundingRegions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/surroundingRegions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="77">
+              <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="102" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permute_All_List_Numbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Sorting/Permute_All_List_Numbers.java">
+      <file leaf-file-name="starwallsandgates.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/starwallsandgates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-504">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="63" selection-end-column="9" />
-              <folding>
-                <element signature="e#121#130#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="329">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="13" selection-end-line="26" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numOfDistnictIslands.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/numOfDistnictIslands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -97,15 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/PathSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="37" column="5" selection-start-line="27" selection-end-line="37" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="minDepth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/minDepth.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Sorting/BucketSort.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/ListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/Linked_list_deepCopy_hash_Map.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ll_deep_copy_withouthashmap.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/delete_node.java" />
@@ -186,6 +181,8 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/maxArea.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Perimeterofisland.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/surroundingRegions.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/starwallsandgates.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/numOfDistnictIslands.java" />
       </list>
     </option>
   </component>
@@ -368,21 +365,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="22155000" />
-    </task>
-    <task id="LOCAL-00016" summary="delete complete trie,finish">
-      <created>1527827123879</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1527827123879</updated>
-    </task>
-    <task id="LOCAL-00017" summary="dijk">
-      <created>1527881662457</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1527881662457</updated>
+      <workItem from="1529089424881" duration="25015000" />
     </task>
     <task id="LOCAL-00018" summary="bucketsort">
       <created>1527999668015</created>
@@ -713,11 +696,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529209307240</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="surroudng regions">
+      <created>1529286625027</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1529286625027</updated>
+    </task>
+    <task id="LOCAL-00066" summary="wallandgates">
+      <created>1529289659198</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1529289659198</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200797000" />
+    <option name="totallyTimeSpent" value="203657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -790,8 +787,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prims finsih n2(V*V)" />
-    <MESSAGE value="dijsktra v2" />
     <MESSAGE value="trie second time" />
     <MESSAGE value="isPalindrome" />
     <MESSAGE value="add two no" />
@@ -815,7 +810,9 @@
     <MESSAGE value="path sum" />
     <MESSAGE value="max area" />
     <MESSAGE value="perimeter of the island" />
-    <option name="LAST_COMMIT_MESSAGE" value="perimeter of the island" />
+    <MESSAGE value="surroudng regions" />
+    <MESSAGE value="wallandgates" />
+    <option name="LAST_COMMIT_MESSAGE" value="wallandgates" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -853,20 +850,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/Linked_list_deepCopy_hash_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/delete_node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/reverse_recursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1084,6 +1067,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="80" column="23" selection-start-line="53" selection-start-column="11" selection-end-line="80" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1227,8 +1213,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/surroundingRegions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="77">
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="102" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/starwallsandgates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="13" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/numOfDistnictIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
