@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/nestedlist2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -113,8 +112,8 @@
       <file leaf-file-name="nestedlist2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/nestedlist2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -372,14 +371,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="34331000" />
-    </task>
-    <task id="LOCAL-00023" summary="linked_list deepcopy without  hash map">
-      <created>1528012306216</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1528012306216</updated>
+      <workItem from="1529089424881" duration="35331000" />
     </task>
     <task id="LOCAL-00024" summary="delete node">
       <created>1528064916912</created>
@@ -717,11 +709,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529387597266</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="nested2">
+      <created>1529392264734</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1529392264734</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212973000" />
+    <option name="totallyTimeSpent" value="213973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -794,7 +793,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="oddeven" />
     <MESSAGE value="plusone" />
     <MESSAGE value="linkedlist components" />
     <MESSAGE value="add two no wih o(1) and n space" />
@@ -819,7 +817,8 @@
     <MESSAGE value="&#10;path sum3" />
     <MESSAGE value="employee hashmap and dfs" />
     <MESSAGE value="nest recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="nest recursion" />
+    <MESSAGE value="nested2" />
+    <option name="LAST_COMMIT_MESSAGE" value="nested2" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1245,8 +1244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/nestedlist2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
