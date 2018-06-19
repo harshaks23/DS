@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/starNestedListWieght.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/nestedlist2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Perimeterofisland.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Perimeterofisland.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="surroundingRegions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/surroundingRegions.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,11 +97,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="starNestedListWieght.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="starNestedListWieght.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/starNestedListWieght.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="221">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="40" selection-end-column="2" />
+              <folding>
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1771#1772#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nestedlist2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/nestedlist2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1445">
+              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -134,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/delete_common_sortedlist.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/delete_allcommonfromsortedlist.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/tortize_hasCycle.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/Reverse_iteraively.java" />
@@ -185,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/pathsum3.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/employeeImportance.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/starNestedListWieght.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/nestedlist2.java" />
       </list>
     </option>
   </component>
@@ -367,14 +372,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="32147000" />
-    </task>
-    <task id="LOCAL-00022" summary="linked_list deepcopy hash map">
-      <created>1528012199759</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1528012199759</updated>
+      <workItem from="1529089424881" duration="34331000" />
     </task>
     <task id="LOCAL-00023" summary="linked_list deepcopy without  hash map">
       <created>1528012306216</created>
@@ -712,11 +710,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529385886342</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="nest recursion">
+      <created>1529387597266</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1529387597266</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210789000" />
+    <option name="totallyTimeSpent" value="212973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -789,7 +794,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="likedinlist2" />
     <MESSAGE value="oddeven" />
     <MESSAGE value="plusone" />
     <MESSAGE value="linkedlist components" />
@@ -814,7 +818,8 @@
     <MESSAGE value="&#10;path sum2" />
     <MESSAGE value="&#10;path sum3" />
     <MESSAGE value="employee hashmap and dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="employee hashmap and dfs" />
+    <MESSAGE value="nest recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="nest recursion" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -852,13 +857,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/Reverse_iteraively.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/remove_linkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1236,8 +1234,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/starNestedListWieght.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="221">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="40" selection-end-column="2" />
+          <folding>
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/nestedlist2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
         </state>
       </provider>
     </entry>
