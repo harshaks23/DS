@@ -3,6 +3,37 @@ package BinaryTree;
 import java.util.*;
 
 public class findduplicateSubtree {
+
+    class Solution2 {
+        Map<String,Integer> map= new HashMap<>();
+
+        List<TreeNode> list = new ArrayList<>();
+
+        public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
+            map= new HashMap<>();
+            list = new ArrayList<>();
+            serialize(root);
+            return list;
+
+        }
+
+        public String serialize(TreeNode node)
+        {
+            if(node==null)
+                return "#";
+            String ret= node.val+","+serialize( node.left)+","+serialize(node.right);
+
+            map.put(ret,map.getOrDefault(ret,0)+1);
+
+            if(map.get(ret)==2)
+            {
+                list.add(node);
+            }
+
+            return ret;
+        }
+
+    }
     class Solution {
         Map<String,Integer> map= new HashMap<>();
         int c=0,d=0;
