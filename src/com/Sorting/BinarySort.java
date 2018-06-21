@@ -76,6 +76,7 @@ if (lar != pos)
     public static void main(String[] args)
 
     {
+
         BinarySort binarySort= new BinarySort();
         binarySort.sort();
         for (int i:arr
