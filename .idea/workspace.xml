@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/deleteNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS/com/Sorting/BinarySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS/com/Sorting/BinarySort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS/com/Sorting/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS/com/Sorting/InsertionSort.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="largestValueinRow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/largestValueinRow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="40" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="longestunivalvepath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/longestunivalvepath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindMaxallOccurancesinBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/FindMaxallOccurancesinBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="56" selection-end-line="62" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StringfromBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/StringfromBST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,11 +60,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sumOfLeftLeaves.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sumOfLeftLeaves.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/sumOfLeftLeaves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeTilt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeTilt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiameterOftree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/DiameterOftree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="35" lean-forward="true" selection-start-line="27" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/deleteNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -129,9 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/PrimsAlgorithmMST.java" />
-        <option value="$PROJECT_DIR$/src/CoreDS/Dijkstra.java" />
-        <option value="$PROJECT_DIR$/src/CoreDS/PrimsAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/Trie_again.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/Trie.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/isPalindrome.java" />
@@ -180,6 +173,9 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/bstToGreaterTree.java" />
         <option value="$PROJECT_DIR$/src/com/Sorting/BinarySort.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/sumOfLeftLeaves.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeTilt.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/DiameterOftree.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/deleteNode.java" />
       </list>
     </option>
   </component>
@@ -362,21 +358,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="42093000" />
-    </task>
-    <task id="LOCAL-00031" summary="tortize has cycle">
-      <created>1528076272073</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1528076272073</updated>
-    </task>
-    <task id="LOCAL-00032" summary="remove linked list element">
-      <created>1528077249517</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1528077249517</updated>
+      <workItem from="1529089424881" duration="44001000" />
     </task>
     <task id="LOCAL-00033" summary="priority queue">
       <created>1528155906082</created>
@@ -707,11 +689,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529606233682</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="binary tilt">
+      <created>1529607042264</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1529607042268</updated>
+    </task>
+    <task id="LOCAL-00081" summary="diameter of tree">
+      <created>1529611034885</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1529611034885</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220735000" />
+    <option name="totallyTimeSpent" value="222643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -784,8 +780,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="depth of the tree" />
-    <MESSAGE value="depth of the tree using dfs and bfs" />
     <MESSAGE value="ideentailca isong dfs and recurive" />
     <MESSAGE value="iterative and recursive using queue" />
     <MESSAGE value="min depth" />
@@ -809,7 +803,9 @@
     <MESSAGE value="finding the duplicates" />
     <MESSAGE value="bst to greater tree&#10;reverse preorder" />
     <MESSAGE value="sum of left leaves" />
-    <option name="LAST_COMMIT_MESSAGE" value="sum of left leaves" />
+    <MESSAGE value="binary tilt" />
+    <MESSAGE value="diameter of tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="diameter of tree" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -847,27 +843,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/PrimsAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="32" selection-start-line="71" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/Trie_again.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
@@ -1238,8 +1213,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/sumOfLeftLeaves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeTilt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/DiameterOftree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="35" lean-forward="true" selection-start-line="27" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/deleteNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
