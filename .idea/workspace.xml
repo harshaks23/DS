@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/longestunivalvepath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,28 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="path_sum_iterative.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/path_sum_iterative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="43" selection-end-line="49" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pathsum2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/pathsum2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="7" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#279#294#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pathsum3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/pathsum3.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +84,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="longestunivalvepath.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="longestunivalvepath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/longestunivalvepath.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="91">
               <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindMaxallOccurancesinBST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/FindMaxallOccurancesinBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="56" selection-end-line="62" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringfromBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/StringfromBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -136,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/Reverse_iteraively.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/remove_linkedList.java" />
         <option value="$PROJECT_DIR$/src/com/Sorting/maxBinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/minHeap.java" />
         <option value="$PROJECT_DIR$/src/CoreDS/PriorityQueue.java" />
@@ -187,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/nestedlist2.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/largestValueinRow.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/longestunivalvepath.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/FindMaxallOccurancesinBST.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/StringfromBST.java" />
       </list>
     </option>
   </component>
@@ -369,28 +364,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="37537000" />
-    </task>
-    <task id="LOCAL-00025" summary="iterative reverse">
-      <created>1528065543539</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1528065543539</updated>
-    </task>
-    <task id="LOCAL-00026" summary="reverse recursive">
-      <created>1528069009565</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1528069009565</updated>
-    </task>
-    <task id="LOCAL-00027" summary="reverse recursive">
-      <created>1528072495211</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1528072495211</updated>
+      <workItem from="1529089424881" duration="39251000" />
     </task>
     <task id="LOCAL-00028" summary="merge two sorted">
       <created>1528072509799</created>
@@ -714,14 +688,36 @@
       <option name="project" value="LOCAL" />
       <updated>1529394435212</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="longest univalue">
+      <created>1529461149965</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1529461149965</updated>
+    </task>
+    <task id="LOCAL-00075" summary="find max occurances">
+      <created>1529461181883</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1529461181883</updated>
+    </task>
+    <task id="LOCAL-00076" summary="string ftom bst">
+      <created>1529593043908</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1529593043908</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216179000" />
+    <option name="totallyTimeSpent" value="217893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -790,9 +786,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linkedlist components" />
-    <MESSAGE value="add two no wih o(1) and n space" />
-    <MESSAGE value="reorder list" />
     <MESSAGE value="reverse m to n" />
     <MESSAGE value="swap nodes" />
     <MESSAGE value="remove node from last" />
@@ -815,7 +808,10 @@
     <MESSAGE value="nest recursion" />
     <MESSAGE value="nested2" />
     <MESSAGE value="largest values in row use bfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="largest values in row use bfs" />
+    <MESSAGE value="longest univalue" />
+    <MESSAGE value="find max occurances" />
+    <MESSAGE value="string ftom bst" />
+    <option name="LAST_COMMIT_MESSAGE" value="string ftom bst" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -853,20 +849,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/QueueUsing1Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="1" selection-start-line="6" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoreDS/minHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoreDS/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
@@ -1232,6 +1214,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/longestunivalvepath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/largestValueinRow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -1242,10 +1231,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/longestunivalvepath.java">
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/FindMaxallOccurancesinBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="278">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="56" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/StringfromBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
         </state>
       </provider>
     </entry>
