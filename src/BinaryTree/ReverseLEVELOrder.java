@@ -1,7 +1,9 @@
 package BinaryTree;
 
 import java.util.*;
-
+//Just use the Stack and put it into it and rretrrive it
+// Also a better thinking would be to add to arraylist based on the posiitom
+//first create a list of list of size of depth of tje tree and then start the level 1 as hhest and add values baed on the level
 public class ReverseLEVELOrder {
 
     class Solution {
@@ -41,4 +43,26 @@ public class ReverseLEVELOrder {
         TreeNode right;
         TreeNode(int x) { val = x; }
     }
-}
+
+    class Solution2 {
+        public int getHeight(TreeNode treeNode){
+            if(treeNode==null) return 0;
+            else return (Math.max(getHeight(treeNode.left),getHeight(treeNode.right))+1);
+        }
+        public List<List<Integer>> levelOrderBottom(TreeNode root) {
+            List<List<Integer>> res=new ArrayList<>();
+            int heigh=getHeight(root);
+            levelOrderHelper(res,root,heigh-1);
+            return res;
+        }
+        public void levelOrderHelper(List<List<Integer>> res, TreeNode node, int level){
+            if(node==null){
+                return;
+            }
+            while (res.size()<=level) res.add(new ArrayList<Integer>());
+            res.get(level).add(node.val);
+            levelOrderHelper(res,node.left,level-1);
+            levelOrderHelper(res,node.right,level-1);
+
+        }
+    }}
