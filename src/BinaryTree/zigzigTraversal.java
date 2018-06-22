@@ -43,4 +43,46 @@ public class zigzigTraversal {
 
         }
     }
+
+    //not required this solition ,use the above using ququw
+
+    class Solution1 {
+        public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+            Stack<TreeNode > s1= new Stack<>();
+            Stack<TreeNode > s2= new Stack<>();
+            List<List<Integer>> l= new ArrayList<>();
+            if(root==null) return l;
+            s1.push(root);
+            while(!s1.isEmpty() || !s2.isEmpty())
+            {List <Integer> tp = new ArrayList<>();
+                while(!s1.isEmpty())
+                {
+                    TreeNode  temp= s1.pop();
+                    tp.add(temp.val);
+
+                    if(temp.left!=null)  s2.push(temp.left);
+                    if(temp.right!=null)   s2.push(temp.right);
+
+                }
+
+                if(!tp.isEmpty()) l.add(tp);
+                tp = new ArrayList<>();
+                while(!s2.isEmpty())
+                {
+                    TreeNode temp=s2.pop();
+                    tp.add(temp.val);
+
+                    if(temp.right!=null)  s1.push(temp.right);
+                    if(temp.left!=null)    s1.push(temp.left);
+
+                }
+
+                if(!tp.isEmpty())      l.add(tp);
+            }
+
+            return l;
+
+
+        }
+    }
 }
