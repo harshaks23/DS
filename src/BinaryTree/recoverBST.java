@@ -1,61 +1,53 @@
-package BinaryTree;
 
-public class recoverBST {
 
-    class Solution {
-        TreeNode prev;
-        TreeNode first;
-        TreeNode middle;
-        TreeNode last;
+package  BinaryTree;
+class soluton1 {
+    TreeNode prev;
+    TreeNode first;
 
-        public void recoverTree(TreeNode root) {
-            if (root==null) return ;
+    TreeNode last;
 
-            Helper(root);
+    public void recoverTree(TreeNode root) {
+        if (root==null) return ;
 
-            if(last==null)
+        Helper(root);
+
+
+        int temp=first.val;
+        first.val=last.val;
+        last.val=temp;
+
+
+
+
+    }
+
+    void Helper(TreeNode node)
+    {
+        if(node==null)
+            return ;
+        Helper(node.left);
+
+        if(prev!=null && node.val< prev.val)
+        {
+            if(first==null)
             {
-                int temp=first.val;
-                first.val=middle.val;
-                middle.val=temp;
+                first=prev;
+                last=node;
             }
             else
             {
-                int temp=first.val;
-                first.val=last.val;
-                last.val=temp;
+                last=node;
             }
 
 
-
         }
+        prev=node;
 
-        void Helper(TreeNode node)
-        {
-            if(node==null)
-                return ;
-            Helper(node.left);
+        Helper(node.right);
 
-            if(prev!=null && node.val< prev.val)
-            {
-                if(first==null)
-                {
-                    first=prev;
-                    middle=node;
-                }
-                else
-                {
-                    last=node;
-                }
-
-
-            }
-            prev=node;
-
-            Helper(node.right);
-
-        }
     }
+
 
     public class TreeNode {
         int val;

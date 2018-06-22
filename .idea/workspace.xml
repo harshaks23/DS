@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/validateBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/validateBST.java" afterDir="false" />
-    </list>
+    <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DiameterOftree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/DiameterOftree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="35" lean-forward="true" selection-start-line="27" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="deleteNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/deleteNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validateBST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="validateBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/validateBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="51">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recoverBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/recoverBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -138,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/linkedlistComponents.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/addtwono2.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ReorderList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/revese_m_n.java" />
@@ -189,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/Flatten_linkedList.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/populatingNextRightPointer.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/validateBST.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/recoverBST.java" />
       </list>
     </option>
   </component>
@@ -371,14 +368,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="51065000" />
-    </task>
-    <task id="LOCAL-00044" summary="plusone">
-      <created>1528586738697</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1528586738697</updated>
+      <workItem from="1529089424881" duration="51696000" />
     </task>
     <task id="LOCAL-00045" summary="plusone">
       <created>1528586817194</created>
@@ -716,11 +706,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529690151720</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="validate bst">
+      <created>1529692090807</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1529692090807</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229707000" />
+    <option name="totallyTimeSpent" value="230338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -857,13 +854,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/linkedlistComponents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/addtwono2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1258,8 +1248,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/validateBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="51">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/recoverBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
