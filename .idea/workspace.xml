@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="" />
+    <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/bstToGreaterTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/bstToGreaterTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Sorting/BinarySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Sorting/BinarySort.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="deleteNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/deleteNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="treepath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/treepath.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -28,20 +22,6 @@
               <caret line="45" column="5" lean-forward="true" selection-start-line="39" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LevelOrderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/LevelOrderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="29" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="e#192#202#0" expanded="true" />
-                <element signature="e#296#311#0" expanded="true" />
-                <element signature="e#495#504#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,11 +86,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recoverBST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recoverBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/recoverBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="34">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bstToGreaterTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/bstToGreaterTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Sorting/BinarySort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -172,8 +170,6 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/FindMaxallOccurancesinBST.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/StringfromBST.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/findduplicateSubtree.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/bstToGreaterTree.java" />
-        <option value="$PROJECT_DIR$/src/com/Sorting/BinarySort.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/sumOfLeftLeaves.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeTilt.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/DiameterOftree.java" />
@@ -186,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/populatingNextRightPointer.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/validateBST.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/recoverBST.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/bstToGreaterTree.java" />
+        <option value="$PROJECT_DIR$/src/com/Sorting/BinarySort.java" />
       </list>
     </option>
   </component>
@@ -368,21 +366,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="51696000" />
-    </task>
-    <task id="LOCAL-00045" summary="plusone">
-      <created>1528586817194</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1528586817194</updated>
-    </task>
-    <task id="LOCAL-00046" summary="linkedlist components">
-      <created>1528588323698</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1528588323698</updated>
+      <workItem from="1529089424881" duration="55171000" />
     </task>
     <task id="LOCAL-00047" summary="add two no wih o(1) and n space">
       <created>1528590351600</created>
@@ -713,11 +697,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529692090807</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="recover bst">
+      <created>1529699969174</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1529699969178</updated>
+    </task>
+    <task id="LOCAL-00095" summary="recover bst">
+      <created>1529700184582</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1529700184586</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230338000" />
+    <option name="totallyTimeSpent" value="233813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -790,7 +788,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;path sum2" />
     <MESSAGE value="&#10;path sum3" />
     <MESSAGE value="employee hashmap and dfs" />
     <MESSAGE value="nest recursion" />
@@ -815,7 +812,8 @@
     <MESSAGE value="populating next pointer" />
     <MESSAGE value="&#10;da" />
     <MESSAGE value="validate bst" />
-    <option name="LAST_COMMIT_MESSAGE" value="validate bst" />
+    <MESSAGE value="recover bst" />
+    <option name="LAST_COMMIT_MESSAGE" value="recover bst" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1121,20 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/bstToGreaterTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/BinarySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/surroundingRegions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
@@ -1255,8 +1239,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/recoverBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/bstToGreaterTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Sorting/BinarySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
         </state>
       </provider>
     </entry>

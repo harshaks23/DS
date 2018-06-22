@@ -11,7 +11,6 @@ public class bstToGreaterTree {
             convertBST(root.right);
             root.val+=sum;
             sum=root.val;
-
             convertBST(root.left);
 
             return root;
