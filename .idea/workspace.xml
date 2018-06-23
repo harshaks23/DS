@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="bst">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/kthSmallest.java" afterDir="false" />
+    <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Arrays_/condtainsDuolicate2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays_/containsDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,24 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="zigzigTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/zigzigTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="populatingNextRightPointer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/populatingNextRightPointer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="validateBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/validateBST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +73,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kthSmallest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kthSmallest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/kthSmallest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
               <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="condtainsDuolicate2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Arrays_/condtainsDuolicate2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#194#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="containsDuplicate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Arrays_/containsDuplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <element signature="e#171#180#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,9 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/SwapNodes.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/removenodeFromLast.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/DepthOfTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/IdenticalTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/minDepth.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/minDepthLevelOrderTraversal.java" />
@@ -179,6 +183,9 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/SerializeandDesialize.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/lcaBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/kthSmallest.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/condtainsDuolicate2.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/containsDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/Arrays_/containsDuplicate.java" />
       </list>
     </option>
   </component>
@@ -222,7 +229,7 @@
               <item name="DS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays_" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DS" type="b2602c69:ProjectViewProjectNode" />
@@ -361,14 +368,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="56634000" />
-    </task>
-    <task id="LOCAL-00049" summary="reverse m to n">
-      <created>1528642476815</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1528642476815</updated>
+      <workItem from="1529089424881" duration="59062000" />
     </task>
     <task id="LOCAL-00050" summary="swap nodes">
       <created>1528658258029</created>
@@ -706,11 +706,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529709776420</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="kth smallest">
+      <created>1529711476529</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1529711476529</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235276000" />
+    <option name="totallyTimeSpent" value="237704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -783,7 +790,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nest recursion" />
     <MESSAGE value="nested2" />
     <MESSAGE value="largest values in row use bfs" />
     <MESSAGE value="longest univalue" />
@@ -808,7 +814,8 @@
     <MESSAGE value="recover bst" />
     <MESSAGE value="serialize and desirialze" />
     <MESSAGE value="bst" />
-    <option name="LAST_COMMIT_MESSAGE" value="bst" />
+    <MESSAGE value="kth smallest" />
+    <option name="LAST_COMMIT_MESSAGE" value="kth smallest" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -847,20 +854,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/removenodeFromLast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/ReorderList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="5" selection-start-line="56" selection-start-column="3" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/minDepthLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1248,6 +1241,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays_/condtainsDuolicate2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#194#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays_/containsDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#171#180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
