@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays_/Min_stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays_/path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays_/DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays_/nextElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MajorityElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Arrays_/MajorityElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProductOfArrayExcceptItself.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Arrays_/ProductOfArrayExcceptItself.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +86,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="path.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="path.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Arrays_/path.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="187">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DailyTemperatures.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Arrays_/DailyTemperatures.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nextElement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Arrays_/nextElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding>
+                <element signature="e#233#250#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,18 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MajorityElement2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Arrays_/MajorityElement2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-595">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -145,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTree/treepath.java" />
-        <option value="$PROJECT_DIR$/src/com/Sorting/trying.java" />
         <option value="$PROJECT_DIR$/src/com/Sorting/MaxDigit.java" />
         <option value="$PROJECT_DIR$/src/com/Sorting/Permute_All_List_Numbers.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Solution.java" />
@@ -196,6 +194,8 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/PreOrderStackSimilartoPreOrder.java" />
         <option value="$PROJECT_DIR$/src/Arrays_/Min_stack.java" />
         <option value="$PROJECT_DIR$/src/Arrays_/path.java" />
+        <option value="$PROJECT_DIR$/src/Arrays_/DailyTemperatures.java" />
+        <option value="$PROJECT_DIR$/src/Arrays_/nextElement.java" />
       </list>
     </option>
   </component>
@@ -384,14 +384,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="67546000" />
-    </task>
-    <task id="LOCAL-00060" summary="path sum">
-      <created>1529167096496</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1529167096497</updated>
+      <workItem from="1529089424881" duration="70171000" />
     </task>
     <task id="LOCAL-00061" summary="path sum">
       <created>1529167128602</created>
@@ -729,11 +722,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529867502961</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="simply path">
+      <created>1529889656906</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1529889656906</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246188000" />
+    <option name="totallyTimeSpent" value="248813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -806,7 +806,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="binary tilt" />
     <MESSAGE value="diameter of tree" />
     <MESSAGE value="delete node" />
     <MESSAGE value="level order" />
@@ -831,7 +830,8 @@
     <MESSAGE value="polish notaion" />
     <MESSAGE value="postOrder" />
     <MESSAGE value="preOrder" />
-    <option name="LAST_COMMIT_MESSAGE" value="preOrder" />
+    <MESSAGE value="simply path" />
+    <option name="LAST_COMMIT_MESSAGE" value="simply path" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -870,27 +870,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/IdenticalTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="83" selection-start-line="33" selection-start-column="9" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#127#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/numofIsland.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -1283,8 +1262,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays_/path.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays_/DailyTemperatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays_/nextElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#233#250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
