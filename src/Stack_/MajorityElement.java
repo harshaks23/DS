@@ -1,4 +1,4 @@
-package Arrays_;
+package Stack_;
 
 public class MajorityElement {
 

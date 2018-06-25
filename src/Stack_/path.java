@@ -1,4 +1,4 @@
-package Arrays_;
+package Stack_;
 
 import java.util.*;
 /*Given an absolute path for a file (Unix-style), simplify it.
