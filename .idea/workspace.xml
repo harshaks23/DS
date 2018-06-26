@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointers/RemoveDuplicatesfromSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,28 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DailyTemperatures.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack_/DailyTemperatures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nextElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack_/nextElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#233#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="nextElement2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack_/nextElement2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,8 +84,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindDuplicate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindDuplicate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoPointers/FindDuplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimumSIzeSubarray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TwoPointers/MinimumSIzeSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveDuplicatesfromSortedArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TwoPointers/RemoveDuplicatesfromSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
@@ -135,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTree/employeeImportance.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/starNestedListWieght.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/nestedlist2.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/largestValueinRow.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/longestunivalvepath.java" />
@@ -186,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/TwoPointers/LongestSubstringwithoutRepatingcharacters.java" />
         <option value="$PROJECT_DIR$/src/TwoPointers/Validpalindrome.java" />
         <option value="$PROJECT_DIR$/src/TwoPointers/FindDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/TwoPointers/MinimumSIzeSubarray.java" />
+        <option value="$PROJECT_DIR$/src/TwoPointers/RemoveDuplicatesfromSortedArray.java" />
       </list>
     </option>
   </component>
@@ -356,21 +352,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="77462000" />
-    </task>
-    <task id="LOCAL-00067" summary="no of distinct">
-      <created>1529294087912</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1529294087913</updated>
-    </task>
-    <task id="LOCAL-00068" summary="&#10;path sum2">
-      <created>1529370067313</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1529370067313</updated>
+      <workItem from="1529089424881" duration="78772000" />
     </task>
     <task id="LOCAL-00069" summary="&#10;path sum3">
       <created>1529376174579</created>
@@ -701,11 +683,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529974643046</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="find duplicate">
+      <created>1529978449710</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1529978449710</updated>
+    </task>
+    <task id="LOCAL-00117" summary="mininmm size subarraty">
+      <created>1529980151171</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1529980151171</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256104000" />
+    <option name="totallyTimeSpent" value="257414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -778,8 +774,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sizg zag using queue" />
-    <MESSAGE value="sizg zag using stack" />
     <MESSAGE value="flatten BST" />
     <MESSAGE value="populating next pointer" />
     <MESSAGE value="&#10;da" />
@@ -803,7 +797,9 @@
     <MESSAGE value="2 ppointener" />
     <MESSAGE value="longest nonrepating substring" />
     <MESSAGE value="valid palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="valid palindrome" />
+    <MESSAGE value="find duplicate" />
+    <MESSAGE value="mininmm size subarraty" />
+    <option name="LAST_COMMIT_MESSAGE" value="mininmm size subarraty" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -842,20 +838,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/maxArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/minDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="31" column="5" selection-start-line="24" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/longestunivalvepath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -1235,6 +1217,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TwoPointers/FindDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointers/MinimumSIzeSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointers/RemoveDuplicatesfromSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
