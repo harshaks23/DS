@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/ReverseVowels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointers/LongestSubstringwithoutRepatingcharacters.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PreOrderStackSimilartoPreOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/PreOrderStackSimilartoPreOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Min_stack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack_/Min_stack.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,11 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContainerWithMostWater.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContainerWithMostWater.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoPointers/ContainerWithMostWater.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestSubstringwithoutRepatingcharacters.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TwoPointers/LongestSubstringwithoutRepatingcharacters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="3" selection-end-column="134" />
             </state>
           </provider>
         </entry>
@@ -143,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTree/numOfDistnictIslands.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/pathsum2.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/pathsum3.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/employeeImportance.java" />
@@ -194,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/TwoPointers/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/TwoPointers/ReverseVowels.java" />
         <option value="$PROJECT_DIR$/src/TwoPointers/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/TwoPointers/LongestSubstringwithoutRepatingcharacters.java" />
       </list>
     </option>
   </component>
@@ -364,14 +358,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="75125000" />
-    </task>
-    <task id="LOCAL-00064" summary="perimeter of the island">
-      <created>1529209307240</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1529209307240</updated>
+      <workItem from="1529089424881" duration="76164000" />
     </task>
     <task id="LOCAL-00065" summary="surroudng regions">
       <created>1529286625027</created>
@@ -709,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529951664443</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="2 ppointener">
+      <created>1529969782639</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1529969782639</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253767000" />
+    <option name="totallyTimeSpent" value="254806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -786,7 +780,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reverse level order" />
     <MESSAGE value="reverse level order using deoth" />
     <MESSAGE value="unique no of trees" />
     <MESSAGE value="sizg zag using queue" />
@@ -811,7 +804,8 @@
     <MESSAGE value="next element" />
     <MESSAGE value="next element2" />
     <MESSAGE value="next permuation" />
-    <option name="LAST_COMMIT_MESSAGE" value="next permuation" />
+    <MESSAGE value="2 ppointener" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 ppointener" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -850,13 +844,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/employeeImportance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/nestedlist2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-688">
@@ -1247,6 +1234,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointers/LongestSubstringwithoutRepatingcharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="3" selection-end-column="134" />
         </state>
       </provider>
     </entry>
