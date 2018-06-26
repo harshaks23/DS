@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/HashMap2Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/ThreesumCloser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/mergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/starthreeSumSmaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointers/TwoSum2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,24 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MinimumSIzeSubarray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TwoPointers/MinimumSIzeSubarray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveDuplicatesfromSortedArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TwoPointers/RemoveDuplicatesfromSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RemoveDuplicatesFRomSortedArray2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoPointers/RemoveDuplicatesFRomSortedArray2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,6 +42,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="trappingRainWater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TwoPointers/trappingRainWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mergeSortedArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoPointers/mergeSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,11 +60,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TwoSum2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TwoPointers/TwoSum2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ThreeSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoPointers/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="22" column="84" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="22" selection-end-column="84" />
+              <caret line="24" column="84" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="24" selection-end-column="84" />
               <folding>
                 <element signature="e#235#250#0" expanded="true" />
               </folding>
@@ -85,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="starthreeSumSmaller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="starthreeSumSmaller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoPointers/starthreeSumSmaller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="380">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -97,8 +93,8 @@
       <file leaf-file-name="HashMap2Sum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoPointers/HashMap2Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="34">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -132,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTree/DiameterOftree.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/deleteNode.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/LevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/ReverseLEVELOrder.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/UniqueBinaryTree.java" />
@@ -183,6 +177,8 @@
         <option value="$PROJECT_DIR$/src/TwoPointers/HashMap2Sum.java" />
         <option value="$PROJECT_DIR$/src/TwoPointers/ThreesumCloser.java" />
         <option value="$PROJECT_DIR$/src/TwoPointers/starthreeSumSmaller.java" />
+        <option value="$PROJECT_DIR$/src/TwoPointers/trappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/TwoPointers/TwoSum2.java" />
       </list>
     </option>
   </component>
@@ -353,21 +349,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="83889000" />
-    </task>
-    <task id="LOCAL-00072" summary="nested2">
-      <created>1529392264734</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1529392264734</updated>
-    </task>
-    <task id="LOCAL-00073" summary="largest values in row use bfs">
-      <created>1529394435212</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1529394435212</updated>
+      <workItem from="1529089424881" duration="85451000" />
     </task>
     <task id="LOCAL-00074" summary="longest univalue">
       <created>1529461149965</created>
@@ -698,11 +680,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529986796123</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="all">
+      <created>1530039034977</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1530039034977</updated>
+    </task>
+    <task id="LOCAL-00122" summary="traiping rain water">
+      <created>1530041455926</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1530041455926</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262531000" />
+    <option name="totallyTimeSpent" value="264093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -775,8 +771,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="validate bst" />
-    <MESSAGE value="recover bst" />
     <MESSAGE value="serialize and desirialze" />
     <MESSAGE value="bst" />
     <MESSAGE value="kth smallest" />
@@ -800,7 +794,9 @@
     <MESSAGE value="renove duplicates" />
     <MESSAGE value="renove duplicates2" />
     <MESSAGE value="sort colorrs" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort colorrs" />
+    <MESSAGE value="all" />
+    <MESSAGE value="traiping rain water" />
+    <option name="LAST_COMMIT_MESSAGE" value="traiping rain water" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -839,20 +835,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/DiameterOftree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="35" lean-forward="true" selection-start-line="27" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/deleteNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/LevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1193,24 +1175,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwoPointers/SortColors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwoPointers/mergeSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TwoPointers/HashMap2Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="34">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1224,7 +1192,7 @@
     <entry file="file://$PROJECT_DIR$/src/TwoPointers/ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="22" column="84" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="22" selection-end-column="84" />
+          <caret line="24" column="84" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="24" selection-end-column="84" />
           <folding>
             <element signature="e#235#250#0" expanded="true" />
           </folding>
@@ -1233,8 +1201,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TwoPointers/starthreeSumSmaller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="380">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointers/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointers/trappingRainWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointers/mergeSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointers/TwoSum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
