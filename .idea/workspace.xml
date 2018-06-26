@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6588240c-37a6-46c4-9756-316000cd9ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoPointers/TwoSum2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RemoveDuplicatesFRomSortedArray2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TwoPointers/RemoveDuplicatesFRomSortedArray2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="removeelement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoPointers/removeelement.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSum2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoSum2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoPointers/TwoSum2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CandyCrush.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TwoPointers/CandyCrush.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -128,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTree/LevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/ReverseLEVELOrder.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/UniqueBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/zigzigTraversal.java" />
@@ -179,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/TwoPointers/starthreeSumSmaller.java" />
         <option value="$PROJECT_DIR$/src/TwoPointers/trappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/TwoPointers/TwoSum2.java" />
+        <option value="$PROJECT_DIR$/src/TwoPointers/CandyCrush.java" />
       </list>
     </option>
   </component>
@@ -349,21 +348,7 @@
       <workItem from="1528412136892" duration="16414000" />
       <workItem from="1528586645584" duration="14029000" />
       <workItem from="1528885976109" duration="5690000" />
-      <workItem from="1529089424881" duration="85451000" />
-    </task>
-    <task id="LOCAL-00074" summary="longest univalue">
-      <created>1529461149965</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1529461149965</updated>
-    </task>
-    <task id="LOCAL-00075" summary="find max occurances">
-      <created>1529461181883</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1529461181883</updated>
+      <workItem from="1529089424881" duration="87437000" />
     </task>
     <task id="LOCAL-00076" summary="string ftom bst">
       <created>1529593043908</created>
@@ -694,11 +679,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530041455926</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Two sum2 sorted">
+      <created>1530041739762</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1530041739762</updated>
+    </task>
+    <task id="LOCAL-00124" summary="candyy crush .....................................">
+      <created>1530048509968</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1530048509968</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264093000" />
+    <option name="totallyTimeSpent" value="266079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -771,8 +770,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="serialize and desirialze" />
-    <MESSAGE value="bst" />
     <MESSAGE value="kth smallest" />
     <MESSAGE value="duplicate" />
     <MESSAGE value="summary range" />
@@ -796,7 +793,9 @@
     <MESSAGE value="sort colorrs" />
     <MESSAGE value="all" />
     <MESSAGE value="traiping rain water" />
-    <option name="LAST_COMMIT_MESSAGE" value="traiping rain water" />
+    <MESSAGE value="Two sum2 sorted" />
+    <MESSAGE value="candyy crush ....................................." />
+    <option name="LAST_COMMIT_MESSAGE" value="candyy crush ....................................." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -835,18 +834,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="29" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#192#202#0" expanded="true" />
-            <element signature="e#296#311#0" expanded="true" />
-            <element signature="e#495#504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/UniqueBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1231,6 +1218,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointers/CandyCrush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
