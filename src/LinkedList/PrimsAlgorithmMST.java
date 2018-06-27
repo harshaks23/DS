@@ -1,7 +1,9 @@
 package LinkedList;
 
-import java.util.*;
-import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Scanner;
 
 class PrimsAlgorithmMST {
 
@@ -26,19 +28,19 @@ class PrimsAlgorithmMST {
 		int cost = 0;
 		// initialize an array that will keep track of which vertices have been visited
 		boolean[] visited = new boolean[graph.length];
-		// initialize a PriorityQueue that will keep track of the possible edges that
+		// initialize a PriorityQueue_ that will keep track of the possible edges that
 		// we can add to the tree we are forming, and will allow us to select the 
 		// edge of least cost every step of the way
 		PriorityQueue<Edge> priorityQueue = new PriorityQueue<Edge>();
 		// mark the initial vertex as visited
 		visited[source] = true;
 
-		// for every edge connected to the source, add it to the PriorityQueue
+		// for every edge connected to the source, add it to the PriorityQueue_
 		for (Edge edge : graph[source].neighbors) {
 			priorityQueue.add(edge);
 		}
 
-		// keep adding edges until the PriorityQueue is empty
+		// keep adding edges until the PriorityQueue_ is empty
 		while (!priorityQueue.isEmpty()) {
 			Edge e = priorityQueue.remove();
 
@@ -52,7 +54,7 @@ class PrimsAlgorithmMST {
 			// increment the cost by the cost of the edge we are adding to the graph
 			cost += e.cost;
 
-			// for every edge connected to the opposite vertex, add it to the PriorityQueue
+			// for every edge connected to the opposite vertex, add it to the PriorityQueue_
 			for (Edge neighbor : graph[e.end].neighbors) {
 				priorityQueue.add(neighbor);
 			}
