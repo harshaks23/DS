@@ -1,4 +1,5 @@
 package com.Sorting;
+
 class  MergeSort
 {
     public  void merge(int arr[],int low,int mid,int high)
@@ -52,14 +53,12 @@ class  MergeSort
     }
 
 
-     static public  void  main(String[] args)
-{
-    MergeSort mergeSort = new MergeSort();
-    int [] arr= new int[]{5,4,3,2,1};
-    mergeSort.sort(arr,0,arr.length-1);
-    for (int i=0;i<arr.length;i++)
-    {
-        System.out.println(arr[i]);
-    }
-}
+     static public  void  main(String[] args) {
+         MergeSort mergeSort = new MergeSort();
+         int[] arr = new int[]{5, 4, 3, 2, 1};
+
+         for (int i = 0; i <= arr.length; i++) {
+             System.out.println(arr[i]);
+         }
+     }
 }
